@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-t2#!bi8bf8xaundbi(n0nq5@epk_7dtux341uh*6=sdwdkqd7-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sanctity-backend-3.onrender.com', 'localhost', '127.0.0.1']
 
 # settings.py
 AUTH_USER_MODEL = 'users.User'
